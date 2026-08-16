@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cover-letter-manager-prototype"
+version = "0.1.0"
+description = "Filesystem-backed desktop cover-letter manager with semantic search"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "PySide6>=6.8,<7",
+  "numpy>=1.26,<3",
+  "sentence-transformers>=5,<6",
+  "tomlkit>=0.13,<1",
+  "pypdf>=5,<7",
+  "python-docx>=1.1,<2",
+  "reportlab>=4.2,<5",
+  "odfpy>=1.4,<2",
+  "striprtf>=0.0.29,<1",
+]
+
+[project.scripts]
+cover-letter-manager = "cover_letter_manager.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cover_letter_manager*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
