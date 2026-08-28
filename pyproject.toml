@@ -18,7 +18,6 @@ dependencies = [
   "reportlab>=4.2,<5",
   "odfpy>=1.4,<2",
   "striprtf>=0.0.29,<1",
-  "requests>=2.34.2",
 ]
 
 [project.scripts]
