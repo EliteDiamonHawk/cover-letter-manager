@@ -2,7 +2,7 @@
 
 A local, filesystem-backed Python desktop application for organizing cover letters, generating PDFs, filtering entries, and searching letter content semantically.
 
-## What the prototype includes
+## What it includes
 
 - Startup directory passed as a command-line argument.
 - Files stored under `root/company/position/`.

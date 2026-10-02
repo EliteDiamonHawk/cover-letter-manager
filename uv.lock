@@ -152,7 +152,7 @@ wheels = [
 ]
 
 [[package]]
-name = "cover-letter-manager-prototype"
+name = "cover-letter-manager"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

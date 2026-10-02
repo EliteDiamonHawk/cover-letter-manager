@@ -1,3 +1,3 @@
-"""Cover Letter Manager prototype."""
+"""Cover Letter Manager."""
 
 __version__ = "0.1.0"

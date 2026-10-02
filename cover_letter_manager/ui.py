@@ -651,7 +651,7 @@ class MainWindow(QMainWindow):
         QMessageBox.about(
             self,
             "About Cover Letter Manager",
-            "Cover Letter Manager prototype\n\n"
+            "Cover Letter Manager\n\n"
             "Files and .prop metadata are the source of truth. Semantic vectors are stored "
             "in a disposable hidden index under the selected root directory.",
         )
